@@ -1,7 +1,7 @@
 # Lab > Dockerizing applications
 
 > Using Docker to contain the application's code, and all the necessary files to run on a server, locally, or in a
-> Kubernettes swarm.
+> Kubernetes swarm.
 
 ## Why [Docker](https://docs.docker.com)?
 

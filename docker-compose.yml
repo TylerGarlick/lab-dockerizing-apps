@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  app:
+    build: examples/nextjs-app
+    ports:
+      - 3000:3000
+    command: npm start
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    ports:
+      - 6379:6379
+
+#  db:
+#    image: arangodb:latest
+#    ports:
+#      - 8529:8529
+#    environment:
+#      - ARANGO_ROOT_PASSWORD=secret
