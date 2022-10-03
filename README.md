@@ -3,6 +3,8 @@
 > Using Docker to contain the application's code, and all the necessary files to run on a server, locally, or in a
 > Kubernetes swarm.
 
+* **[Objective and Tasks](docs/TASKS.md)**
+
 ## Why [Docker](https://docs.docker.com)?
 
 We used to have virtual machines that encapsulated our applications and logic, and at the height of the virtual machines
@@ -34,7 +36,6 @@ the containers were pretty large--to alleviate some of the container bloat press
 > This is an example of the container stacks that derive from building various containers on top of each other.
 
 ![Alt text](https://3.bp.blogspot.com/-Pd6r1WFYEIk/Wyk1WuzkM3I/AAAAAAAABYY/T3z30xCiKM4c7ESbxS_ELmKkS6MoaxdZACLcBGAs/s1600/Docker%2BImages%2BExplained%2B-%2BDocker%2BTutorial.jpg "Dockerfile to container")
-
 
 ### Dockerfile(s)
 
